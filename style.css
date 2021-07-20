@@ -1,0 +1,56 @@
+.base{
+    background-color: #1c1d25;
+    height: 100vh;
+    width: none;
+}
+
+.intro{
+    background-color: rgb(92, 91, 91);
+    height: 20vh;
+    border-radius: solid 2vh;
+    color:white;
+    font-size: 40px;
+    text-align: center; 
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.titulo{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Lato', sans-serif;
+    font-size: 70px;
+}
+
+
+.hero{
+   height: 0vh; 
+   width: none; 
+}
+
+.opcoes{
+    color:white;
+    font-size: 20px;
+    justify-content: space-around;
+    list-style-type:none;
+    display: flex;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+footer{
+    background-color: #1c1d25;
+    width: none;   
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 75%;
+    transform: translateY(-75%);
+}
